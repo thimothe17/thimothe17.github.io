@@ -397,8 +397,8 @@ body.blurred > * {
   margin-top: 3%;
 
   left: 33%;
-  width: fit-content;
-  height: fit-content;
+  width: 42%;
+  height: 10%;
 }
 
 .title h1 {
@@ -416,7 +416,7 @@ body.blurred > * {
 }
 
 .title-btn {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 30%;
       display: flex;
@@ -447,12 +447,12 @@ body.blurred > * {
 }
 
 .btn {
-  position: relative;
-
+  position: absolute;
+  bottom: 2 	0%;
+  left: 50%;
   display: block;
-  margin: 30px auto;
   padding: 31px;
-
+  
   overflow: hidden;
 
   border-width: 0;
@@ -548,7 +548,7 @@ nav {
 nav.nav-open {
   transform: translateX(0px);
   border-radius: 0% 0% 0% 0%;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 nav .menu-btn {

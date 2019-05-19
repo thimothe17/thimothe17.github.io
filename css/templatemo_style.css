@@ -7,6 +7,10 @@
   outline: none!important;
 }
 
+input {
+	border: 1px solid black;
+}
+
 a {
   text-decoration: none!important;
 }
@@ -620,7 +624,7 @@ background-color: powderblue;
   color: #7a7a7a;
   background-color: rgba(0, 0, 0, 0.03);
   outline: none;
-  border: none;
+  border: 1px solid cadetblue;
   box-shadow: none;
   line-height: 50px;
   height: 50px;
@@ -637,7 +641,7 @@ background-color: powderblue;
   color: #232323;
   background-color: rgba(0, 0, 0, 0.03);
   outline: none;
-  border: none;
+  border: 1px solid cadetblue;
   box-shadow: none;
   height: 165px;
   max-height: 220px;

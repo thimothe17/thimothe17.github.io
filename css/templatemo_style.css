@@ -1358,7 +1358,7 @@ p.icon-tel {
 #pricing h2 {
   margin: auto;
   text-align: center;
-  padding-bottom: 10%;
+  padding-bottom: 2%;
   margin-top: 0px;
     font-size: 28px;
     text-transform: uppercase;
@@ -1388,7 +1388,7 @@ p.icon-tel {
   background: rgb(245, 166, 35);
 }
 .bravo .header{
-  background: rgb(246, 77, 77);
+  background: #46bae2;
 }
 .charlie .header{
   background: rgb(48, 219, 181);
@@ -1420,7 +1420,7 @@ p.icon-tel {
   margin: auto;
   padding: 20px 15px;
   text-align: center;
-  width: 200px;
+  width: 300px;
   font-size: 16px;
 }
 .features li:not(:last-child){
@@ -1445,7 +1445,7 @@ button{
   background: rgb(245, 166, 35);
 }
 .bravo button{
-  background: rgb(246, 77, 77);
+  background: #46bae2;
 }
 .charlie button{
   background: rgb(48, 219, 181);

@@ -1155,7 +1155,7 @@ left: 48%;
 
 .pos4 {
   display: inline-block;
-  background-color: #a61c1e;
+  background-color: chocolate;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -1176,7 +1176,7 @@ left: 42%;
 
 .pos3 {
   display: inline-block;
-  background-color: #a61c1e;
+  background-color: chocolate;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -1243,21 +1243,42 @@ left: 42%;
 
 .bottom-menu  {
 	
-	width: auto;
-	display: inline-flex;
+	width: 100%;
 	position: relative;
-    top: 9%;
+    top: 6%;
     left: 0%;
-	border: solid 1px grey;
 	border-radius: 3px;
+  text-align: center;
 }
 
 .bottom-menu p {
 	
 	padding: 5px;
   margin: 0;
+  padding-left: 12px;
+  text-transform: uppercase;
 }
 
+.bottom-menu  {
+  padding-bottom: 10px;
+ 
+}
+
+.adresse {
+  display: inline-flex;
+}
+
+.adresse p {
+  text-transform: none;
+}
+
+.adresse img {
+      width: 15%;
+    height: 100%;
+    position: relative;
+    bottom: -14px;
+    left: -16px;
+}
 .profile-pic {
 	    max-width: 30%;
     border-radius: 100%;

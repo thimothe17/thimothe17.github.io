@@ -396,7 +396,7 @@ p {
 }
 
 .list-item:hover {
-background-color: chocolate;
+background-color: powderblue;
 }
 
 
@@ -724,9 +724,9 @@ right: 7%;
 
 }
 
-.back-to-top:hover {
+.back-to-top a:hover {
 
-color: rgb(70,186,226, 0.4);
+background-color: grey;
 
 }
 
@@ -1155,7 +1155,7 @@ left: 48%;
 
 .pos4 {
   display: inline-block;
-  background-color: chocolate;
+  background-color: grey;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -1176,7 +1176,7 @@ left: 42%;
 
 .pos3 {
   display: inline-block;
-  background-color: chocolate;
+  background-color: grey;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -1206,7 +1206,7 @@ left: 42%;
   transition: all 0.55s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
 .social-button .fa {
-  font-size: 20px;
+  font-size: 35px;
   vertical-align: middle;
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
@@ -1260,7 +1260,10 @@ left: 42%;
 }
 
 .bottom-menu  {
-  padding-bottom: 10px;
+      padding-bottom: 10px;
+    border-top: 2px solid grey;
+    background-color: darkgray;
+padding-bottom: 47px;
  
 }
 
@@ -1270,6 +1273,25 @@ left: 42%;
 
 .adresse p {
   text-transform: none;
+      font-weight: bold;
+      padding-left: 5px;
+}
+
+.adresse a {
+  text-transform: none !important;
+      font-weight: bold;
+      padding: 5px;
+    margin-left: -14px;
+    padding-left: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+
+.adresse a:hover {
+  color: white;
 }
 
 .adresse img {
@@ -1280,10 +1302,48 @@ left: 42%;
     left: -16px;
 }
 .profile-pic {
-	    max-width: 30%;
-    border-radius: 100%;
+	    max-width: 14%;
+    border-radius: 8%;
     position: relative;
-    top: -12%;
-    left: -19%;
+    top: 0%;
+    left: -29%;
 	
+}
+
+.icon-tel img {
+          width: 7%;
+    height: 100%;
+    position: relative;
+    bottom: 1px;
+    left: -10%;
+}
+
+p.icon-tel {
+  padding: 5px;
+  margin-left: -33px;
+    text-transform: uppercase;
+    text-align: center;
+        font-weight: bold;
+}
+
+.arrow-down1 {
+          display: inline-block;
+    width: auto;
+    height: auto;
+    line-height: 50px;
+    font-size: 47px;
+    margin: 0;
+    text-align: center;
+    /* overflow: hidden; */
+    opacity: .99;
+    /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05); */
+    -webkit-transition: all 0.55s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    transition: all 0.55s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+.arrow-down1:hover {
+  color: #46bae2;
 }

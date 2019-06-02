@@ -467,7 +467,7 @@ body.blurred > * {
 }
 
 .btn:hover, .btn:focus {
-  background-color: #27ae60;
+  background-color: rgba(15, 140, 226, 0.8) !important;
 }
 
 .btn > * {
@@ -633,14 +633,18 @@ nav .nav-links.fade-in {
 }
 
 nav .nav-links .link {
-  margin: 20px 0;
-  text-decoration: none;
-  font-family: sans-serif;
-  color: rgba(0,0,0,0.9);
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  transition: all 300ms cubic-bezier(.9, 0, .33, 1);
+      margin: auto 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgba(0,0,0,0.9);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 17px;
+    border-top: 1px solid black;
+    width: 63%;
+    transition: all 300ms cubic-bezier(.9, 0, .33, 1);
 }
 
 nav .nav-links .link:hover {

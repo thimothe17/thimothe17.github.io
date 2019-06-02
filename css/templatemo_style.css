@@ -101,6 +101,11 @@ p {
   text-decoration: none;
 }
 
+.border-button a:hover {
+
+ color: black;
+ background-color: powderblue;
+}
 
 .section-heading {
   text-align: center;
@@ -731,7 +736,7 @@ footer .back-to-top a {
   background-color: #46bae2;
   display: inline-block;
   width: 100%;
-  padding: 30px 0px;
+  padding: 9px 0px;
   color: #fff;
   font-size: 15px;
   text-transform: uppercase;
@@ -1028,12 +1033,13 @@ body > div.second-tabs-content.what-we-do > div > div:nth-child(2) > div > div:n
       top: 5%;
       width: 16em;
       margin: 0 auto;
-      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      border-right: 2px solid black;
       font-size: 180%;
       text-align: center;
       white-space: nowrap;
       overflow: hidden;transform: translateY(-50%);
 }
+
 
 /*Animation*/
 
@@ -1165,7 +1171,7 @@ left: 48%;
 
 bottom: 31%;
 
-left: 48%;
+left: 42%;
 }
 
 .pos3 {
@@ -1184,7 +1190,7 @@ left: 48%;
   transition: all 0.55s cubic-bezier(0.31, -0.105, 0.43, 1.59);
   position: absolute;
   bottom: 31%;
-  left: 57%;
+  left: 56%;
 }
 .social-button:before {
   content: '';
@@ -1237,10 +1243,10 @@ left: 48%;
 
 .bottom-menu  {
 	
-	width: 70%;
+	width: auto;
 	display: inline-flex;
 	position: relative;
-    top: 15%;
+    top: 9%;
     left: 0%;
 	border: solid 1px grey;
 	border-radius: 3px;
@@ -1248,7 +1254,8 @@ left: 48%;
 
 .bottom-menu p {
 	
-	padding-right: 25px;
+	padding: 5px;
+  margin: 0;
 }
 
 .profile-pic {
